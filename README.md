@@ -1,9 +1,11 @@
 Project 1: Setting Up an S3 Bucket
 -----------------------------------
-	Objective: Create an AWS S3 bucket with Terraform. The bucket will have basic settings and public access blocked to ensure it's secure.
+Objective: Create an AWS S3 bucket with Terraform. The bucket will have basic settings and public access blocked to ensure it's secure.
 
-	Note: Make sure the AWS_ACCESS_KEYS and AWS_SECRET_KEYS are configured using aws configure
+Note: Make sure the AWS_ACCESS_KEYS and AWS_SECRET_KEYS are configured using aws configure
+
 #################################
+
 Steps:
 •	Write a Terraform script to:
 
@@ -24,6 +26,7 @@ Steps:
 •	Clean up resources.
 
 ##################################
+
 Files included are:
 
 •	main.tf - contains the providers and resources block
