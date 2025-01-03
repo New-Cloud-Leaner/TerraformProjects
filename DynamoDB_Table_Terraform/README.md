@@ -2,6 +2,8 @@ Project 3: Creating a DynamoDB Table
 
 Objective: Set up an AWS DynamoDB table with Terraform. The table will be used to store key-value pairs, and it will have a basic configuration suitable for free-tier usage.
 
+Note: Make sure the AWS_ACCESS_KEYS and AWS_SECRET_KEYS are configured using aws configure
+
 --------------------------------------------------------------
 
 Project Details
