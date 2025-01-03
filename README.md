@@ -4,7 +4,7 @@ Objective: Create an AWS S3 bucket with Terraform. The bucket will have basic se
 
 Note: Make sure the AWS_ACCESS_KEYS and AWS_SECRET_KEYS are configured using aws configure
 
-#################################
+-----------------------------------
 
 Steps:
 •	Write a Terraform script to:
@@ -25,7 +25,7 @@ Steps:
 
 •	Clean up resources.
 
-##################################
+-----------------------------------
 
 Files included are:
 
