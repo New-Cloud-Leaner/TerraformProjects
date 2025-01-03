@@ -1,1 +1,1 @@
-aws_bucket_name = "project1-test-bucket-24453233"
+aws_bucket_name = "Your Unique Bucket Name here"
