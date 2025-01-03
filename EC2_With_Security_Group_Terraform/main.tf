@@ -2,7 +2,7 @@
 
 resource "aws_instance" "web" {
   ami           = var.ami_for_ec2
-  instance_type = "t3.micro"
+  instance_type = var.instance_family
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
   tags = {
     Name = "web vm"
@@ -25,9 +25,9 @@ resource "aws_security_group" "allow_ssh" {
 resource "aws_vpc_security_group_ingress_rule" "allow_ssh_rule" {
   security_group_id = aws_security_group.allow_ssh.id
   cidr_ipv4         = var.ssh_cidr
-  from_port         = 22
+  from_port         = var.ssh_port
   ip_protocol       = "tcp"
-  to_port           = 22
+  to_port           = var.ssh_port
 }
 
 resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
@@ -35,4 +35,3 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
   cidr_ipv4         = var.ssh_cidr
   ip_protocol       = "-1" # semantically equivalent to all ports
 }
-
