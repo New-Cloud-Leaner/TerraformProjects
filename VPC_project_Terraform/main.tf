@@ -1,7 +1,7 @@
 # locals block is used here to define common tags for the resources defined below
 locals {
   Environment = "Dev"
-  Owner       = "HashiCorp Leaners"
+  Owner       = "HashiCorp Learners"
 }
 
 # VPC resource block below
