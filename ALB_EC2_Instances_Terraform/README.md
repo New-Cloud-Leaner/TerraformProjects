@@ -1,9 +1,9 @@
 This Project contains Load balanced EC2 instances:
-
+--------------------------------------------------------------------------------------
 Features
-
+--------------------------------------------------------------------------------------
 Networking:
-
+--------------------------------------------------------------------------------------
 VPC with a CIDR block of 10.0.0.0/16.
 
 Two public subnets in different Availability Zones (ap-south-1a and ap-south-1b).
