@@ -29,7 +29,7 @@ resource "aws_security_group" "frontend-sg" {
 # EC2 keypair
 resource "aws_key_pair" "frontend_key" {
   key_name   = "${var.env}-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPXyC+jQJ14QFyUfipXGd/qnBsUDlG1htfPIOJxXxianFwm4ML7D068pvFys7VwACosJLpZVbdN0mfRLFASOuV/7D58qf3bn9R9k0D70038ipKelIywRvq6I9RJKSsZpT7TpxmOH2SU/rsUZvmh1fEHabVMEFRUKEyDyjzHAgoxbyqyQ/D+YanTpy37J/NGtEZXiIzGnr5hDPKBjfhdTOA4Z1TMFiqBTIKn6UtufqHVLQJz2iFJP06q72L6dDqVDFMI+8zAdMUYiJjXvi808yRobB/w/BiXeDOOePJxk+Q3gdQflCySZ8rdrywr15a7LV5wwC3SNNWkt+r5RR7Pt4CTicsANeGk7GUQMs9njB1tQVGLOQMNr+moiNmLz5UidZupEJLkBvAgrI9FgqvEW5ZKd8e7ZYlV2iQB2MsxWSvyDI8nKs57PXYXcopcrWv8Cva4DWu/qur6V3q0Y6LGBKCnlp+OpyV/127TMmPCWVyXvFkREWGCkXUu1obEKPJz+sLbN5QB8scZt/1BAFoXWkW6ENqdE+4/TDHa8JLAO8ZosYieAzy8ticyWc/UjN24ziaNznLFE0TEfWCKEOu7kv3lscMM10OKfMaJizGUVU5pPp+zzWZXM8VB2qSWbvYCwjVUCg8W1S7YlQ7WUW1F3ELqRf3BrK5H9t6JDPs4j2D5Q== your-email@example.com"
+  public_key = "ssh-rsa YOUR PUBLIC KEY HERE"
 }
 
 # ec2-instances-frontend
