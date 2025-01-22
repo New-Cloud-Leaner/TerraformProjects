@@ -1,0 +1,2 @@
+min_size,max_size,desired_capacity,scale_up_threshold,scale_in_threshold,scale_up_adjustment,scale_in_adjustment
+1,5,3,80,30,1,-1
