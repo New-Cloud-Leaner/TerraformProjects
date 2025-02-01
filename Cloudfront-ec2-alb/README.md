@@ -7,7 +7,7 @@ This Terraform project deploys a highly available web application using:
 - **Two EC2 instances (in separate subnets)**
 
 ## **🛠 Technologies Used**
-- Terraform, AWS CloudFront, ALB, EC2, ASG, VPC
+- Terraform, AWS CloudFront, ALB, EC2, VPC
 
 ## **🚀 Deployment Steps**
 ```bash
@@ -31,7 +31,7 @@ terraform output cloudfront_domain
 
 ## **🔐 Security Notes**
 - **SSH Key Pair** was manually created due to Terraform issues.
-- **IAM & Security Groups** follow best practices.
+- **Security Groups** follow best practices.
 
 ## **🧹 Clean Up Resources**
 ```bash
