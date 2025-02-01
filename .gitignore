@@ -1,0 +1,29 @@
+# Ignore Terraform local state files
+*.tfstate
+*.tfstate.backup
+terraform.tfstate.d/
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Ignore Terraform cache, modules, and provider plugins
+.terraform/
+.terraform/*
+terraform.tfstate
+*.tfgraph
+*.tfplan
+*plan
+*.tfgraph
+
+# Ignore private key files (DO NOT UPLOAD KEYS TO GITHUB)
+*.pem
+*.ppk
+credentials.csv
+
+# Ignore Logs and temp files
+*.log
+*.bak
+*.swp
+.DS_Store
+
+
